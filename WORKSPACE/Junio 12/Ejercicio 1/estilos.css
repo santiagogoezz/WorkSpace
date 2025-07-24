@@ -1,0 +1,17 @@
+h1 {
+    color: #A9A9A9;
+}
+h2 {
+    color: rgba(255, 42, 42, 0.884);
+}
+h3 {
+    color: rgba(255, 42, 42, 0.884);
+}
+.reglas {
+    display: inline-block;
+    width: 30%;
+    height: 20%;
+}
+body {
+    background-color:bisque
+}

@@ -1,0 +1,19 @@
+.clase1 {
+    display: inline-block;
+    width: 30%;
+    height: 20%;
+    color: rgb(255, 230, 0);
+    background-color: rgb(240, 23, 23);
+    border: solid 3px black;
+}
+.clase2 {
+    display: inline-block;
+    width: 30%;
+    height: 20%;
+    color: rgb(0, 255, 234);
+    background-color: green;
+    border: solid 3px black;
+}
+p {
+    color: black;
+}
