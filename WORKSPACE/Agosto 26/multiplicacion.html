@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="suma">
+        <h1>Operación suma</h1>
+        <input type="number" id="suma1">
+        <h1>*</h1>
+        <input type="number" id="suma2">
+        <input type="button" onclick="suma()" value="=" id="sumar">
+        <h1 id="resultadosuma" style="border: solid;"></h1>
+    </div>
+    <div class="multiplicacion">
+        <h1>Operación multiplicar</h1>
+        <input type="number" id="multiplicacion1">
+        <h1>*</h1>
+        <input type="number" id="multiplicacion2">
+        <input type="button" onclick="multiplicacion()" value="=" id="multiplicar">
+        <h1 id="resultadomultiplicacion" style="border: solid;"></h1>
+    </div>
+    <div>
+        <h1>Operación resta</h1>
+        <input type="number" id="resta1">
+        <h1>-</h1>
+        <input type="number" id="resta2">
+        <input type="button" onclick="resta()" value="=" id="restar">
+        <h1 id="resultadoresta" style="border: solid;"></h1>
+    </div>
+    <div>
+        <h1>Operación división</h1>
+        <input type="number" id="division1">
+        <h1>/</h1>
+        <input type="number" id="division2">
+        <input type="button" onclick="division()" value="=" id="dividir">
+        <h1 id="resultadodivision" style="border: solid;"></h1>
+    </div>
+    <script src="multiplicacion.js"></script>
+</body>
+</html>
