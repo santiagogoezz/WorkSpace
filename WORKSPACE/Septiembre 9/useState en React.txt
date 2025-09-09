@@ -1,0 +1,37 @@
+463 200En React, useState es un hook que te permite manejar estados dentro de un componente funcional. Antes, el estado solo se podía usar en componentes de clase, pero con los hooks ya se puede en funciones.
+1. Importarlo desde React:
+
+import { useState } from "react";
+
+
+2. Declararlo en tu componente:
+
+const [valor, setValor] = useState(estadoInicial);
+
+
+-valor → es la variable donde se guarda el estado actual.
+
+-setValor → es una función que sirve para actualizar ese estado.
+
+-estadoInicial → el valor inicial que tendrá ese estado (puede ser número, string, booleano, objeto, array, etc.).
+
+EJEMPLO
+
+import { useState } from "react";
+
+export default function Contador() {
+  const [contador, setContador] = useState(0);
+
+  return (
+    <div>
+      <p>El contador está en: {contador}</p>
+      <button onClick={() => setContador(contador + 1)}>Sumar</button>
+      <button onClick={() => setContador(contador - 1)}>Restar</button>
+    </div>
+  );
+}
+
+-useState(0) → el contador empieza en 0.
+
+-Cada vez que llamas a setContador, React actualiza el estado y vuelve a renderizar el componente mostrando el nuevo valor.
+
