@@ -1,0 +1,13 @@
+.Estudiante{
+    background-color: aquamarine;
+}
+
+.nombre{
+    font-size: larger;
+    margin: 3px;
+}
+
+.apellido{
+    font-size: large;
+    margin: 3px;
+}
